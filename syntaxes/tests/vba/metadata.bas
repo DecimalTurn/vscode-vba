@@ -9,6 +9,9 @@ BEGIN
 END
 ' <--- keyword.metadata.vba
 
+ END
+'^^^ keyword.control.vba
+
 Sub test()
 
     MsgBox "test"
