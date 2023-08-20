@@ -1,3 +1,5 @@
+' SYNTAX TEST "source.vba" "metadata"
+
 VERSION 1.0 CLASS
 BEGIN
 ' <----- keyword.metadata.vba
