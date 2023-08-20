@@ -65,7 +65,7 @@ repository:
         name: "keyword.metadata.vba"     
     end: "(?i)^\\s*(End)\\b"
     endCaptures":
-      "1": 
+      "1":
         name: "keyword.metadata.vba"
 
   numbers:
