@@ -7,4 +7,11 @@ BEGIN
             '^^  constant.numeric.decimal
                 '^^^^^  comment.line.quote
 END
-' <--- keyword.metadata.vba
+
+Sub test()
+
+    MsgBox "test"
+    End
+   '^^^ keyword.control.vba
+
+End Sub
