@@ -58,17 +58,17 @@ repository:
     name: entity.name.function.vba
     match: (?i:\b(?:(?<=Call )|(?<=Function )|(?<=Sub ))[a-zA-Z][a-zA-Z0-9_]*\b)(?=\(\)?)
 
-  metadata: 
+  metadata:
     name: metadata.vba
-    begin: "(?i)\\s*(Begin)\\b"
-    beginCaptures: 
+    begin: "(?i)^\\s*(Begin)\\b"
+    beginCaptures:
       "1":
         name: "keyword.metadata.vba"     
     end: "(?i)^\\s*(End)\\b"
     endCaptures":
       "1": 
         name: "keyword.metadata.vba"
-    patterns: 
+    patterns:
       - include: "source.vba" 
 
   numbers:
