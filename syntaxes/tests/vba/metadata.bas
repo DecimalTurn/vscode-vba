@@ -7,6 +7,7 @@ BEGIN
             '^^  constant.numeric.decimal
                 '^^^^^  comment.line.quote
 END
+' <--- keyword.metadata.vba
 
 Sub test()
 
