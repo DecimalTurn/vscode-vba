@@ -61,10 +61,10 @@ repository:
   metadata:
     name: metadata.vba
     begin: "(?i)^\\s*(BEGIN)\\b"
+    end: "(?i)^\\s*(END)\\b"
     beginCaptures:
       '1':
         name: "keyword.metadata.vba"     
-    end: "(?i)^\\s*(END)\\b"
     endCaptures":
       '1':
         name: "keyword.metadata.vba"
