@@ -6,7 +6,7 @@ BEGIN
   MultiUse = -1  'True
             '^^  constant.numeric.decimal
                 '^^^^^  comment.line.quote
-END
+xyz
 ' <--- keyword.metadata.vba
 
  End
