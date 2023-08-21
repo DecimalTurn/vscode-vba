@@ -24,7 +24,7 @@ jobs:
           npm run test
           echo "==================================="
           echo "Content of metadata.bas.snap:"
-          cat syntaxes/tests/demo/metadata.bas.snap
+          cat syntaxes/tests/demo/demo.bas.snap
           echo "==================================="
           echo "Content of vba.tmGrammar.json:"
           cat out/vba.tmGrammar.json
