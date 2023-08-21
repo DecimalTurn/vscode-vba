@@ -21,6 +21,11 @@ jobs:
         run: npm install
       - name: Test
         run: npm run test
+      - name: Snapshot
+        uses: actions/download-artifact@v2.1.1
+        with:
+          name: my-artifact
+          path: syntaxes/tests/vba
 
   compile-and-package:
     runs-on: ubuntu-latest
