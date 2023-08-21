@@ -20,8 +20,7 @@ jobs:
       - name: Install dependencies
         run: npm install
       - name: Test
-        - run: npm run test
-        - run: pwd
+        run: npm run test && pwd
       - name: Snapshot
         uses: actions/download-artifact@v2.1.1
         with:
