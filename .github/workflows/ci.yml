@@ -20,7 +20,14 @@ jobs:
       - name: Install dependencies
         run: npm install
       - name: Test
-        run: npm run test
+        run: |
+          npm run test
+          echo "==================================="
+          echo "Content of metadata.bas.snap:"
+          cat syntaxes/tests/demo/metadata.bas.snap
+          echo "==================================="
+          echo "Content of vba.tmGrammar.json:"
+          cat out/vba.tmGrammar.json
 
   compile-and-package:
     runs-on: ubuntu-latest
