@@ -20,12 +20,10 @@ jobs:
       - name: Install dependencies
         run: npm install
       - name: Test
-        run: npm run test && pwd && ls
-      - name: Snapshot
-        uses: actions/download-artifact@v2.1.1
-        with:
-          name: my-artifact
-          path: syntaxes/tests/vba/metadata.bas.snap
+        run: |
+          npm run test
+          echo "Content of metadata.bas.snap:"
+          cat syntaxes/tests/vba/metadata.bas.snap
 
   compile-and-package:
     runs-on: ubuntu-latest
