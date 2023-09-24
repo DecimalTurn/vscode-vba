@@ -25,4 +25,7 @@ Sub OtherSub()
     Begin MyString:="test"
    '^^^^^ - keyword.metadata.vba
 
+    End
+   '^^^ - keyword.metadata.vba
+
 End Sub
