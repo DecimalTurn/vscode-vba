@@ -64,8 +64,8 @@ repository:
     beginCaptures:
       '1':
         name: "keyword.metadata.vba"     
-    end: "(END)"
-    endCaptures":
+    end: "(?i)^\\s*(END)\\b"
+    endCaptures:
       '0':
         name: "keyword.metadata.vba"
     patterns: 
