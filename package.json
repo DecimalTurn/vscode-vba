@@ -29,6 +29,7 @@
 		"onLanguage:wwb",
 		"workspaceContains:**/*.{docm,xlsm,pptm,xlam,ppam}"
 	],
+	"browser": "./out/extension.js",
 	"main": "./out/extension.js",
 	"capabilities": {
 		"untrustedWorkspaces": {
